@@ -16,4 +16,8 @@ fun main() {
 
     println(positive)
     println(negative)
+
+    val groupBy = listOf("a", "b", "ba", "ccc", "ad").groupBy { it.length }
+    println(groupBy)
+    println()
 }
