@@ -7,7 +7,7 @@ fun main() {
 
     var b: String? = "Test"
 
-    b = null;
-
-    println(b?.length)
+    b = if ((0..10).random() > 5) "a" else null
+    println(b?.length ?: -1)
+    println(b!!.length)
 }
