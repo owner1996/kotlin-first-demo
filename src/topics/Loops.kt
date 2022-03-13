@@ -2,8 +2,8 @@ package topics
 
 fun main() {
     val items = listOf("apple", "banana", "orange")
-    mutableListOf<String>("apple", "banana", "orange")
-
+//    val mutableListOf = mutableListOf<String>("apple", "banana", "orange")
+        println(diaposon(2,9))
     for (item in items) {
         println(item)
     }
@@ -34,3 +34,5 @@ fun main() {
         println(i)
     }
 }
+
+fun diaposon(x: Int, y: Int) = 7 in x ..  y;
