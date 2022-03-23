@@ -36,3 +36,4 @@ fun main() {
 }
 
 fun diaposon(x: Int, y: Int) = 7 in x ..  y;
+// изменение в мастере
